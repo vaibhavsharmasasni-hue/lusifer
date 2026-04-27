@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jarvis Quant Trader UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&family=Rajdhani:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scanline"></div>
+    <main class="dashboard">
+      <header class="topbar panel">
+        <div class="brand">
+          <h1>QUANT-BRAIN v2.1</h1>
+          <p>ULTIMATE TRADING INTELLIGENCE</p>
+        </div>
+        <div class="top-stats">
+          <div><span>SYSTEM STATUS</span><strong>OPTIMAL</strong></div>
+          <div><span>UPTIME</span><strong>47D 12H 33M</strong></div>
+          <div><span>LIVE MARKET</span><strong id="clock">--:--:-- IST</strong></div>
+          <div><span>NIFTY</span><strong class="up">24,235 +0.34%</strong></div>
+          <div><span>BANKNIFTY</span><strong class="up">52,180 +0.21%</strong></div>
+          <div><span>SENSEX</span><strong class="up">79,802 +0.28%</strong></div>
+        </div>
+        <button class="live-btn">LIVE TRADING</button>
+      </header>
+
+      <section class="left-col">
+        <article class="panel">
+          <h2>CORE INTELLIGENCE MATRIX</h2>
+          <ul class="metric-list">
+            <li><span>SMC BRAIN</span><b>87%</b></li>
+            <li><span>PRICE ACTION</span><b>78%</b></li>
+            <li><span>MOMENTUM</span><b>82%</b></li>
+            <li><span>VOLUME PROFILE</span><b>75%</b></li>
+            <li><span>FII INTELLIGENCE</span><b>91%</b></li>
+            <li><span>ADAPTIVE LEARNING</span><b>95%</b></li>
+          </ul>
+        </article>
+        <article class="panel compact">
+          <h2>SMART MONEY FLOW</h2>
+          <div class="ring">78%</div>
+          <p>FII FLOW <span class="up">+1,248 CR</span></p>
+          <p>DII FLOW <span class="up">+623 CR</span></p>
+        </article>
+        <article class="panel">
+          <h2>PORTFOLIO OVERVIEW</h2>
+          <div class="stat-grid">
+            <div><span>TOTAL CAPITAL</span><strong>₹10,00,000</strong></div>
+            <div><span>NET PNL</span><strong class="up">+₹1,24,850</strong></div>
+            <div><span>RETURN</span><strong class="up">+12.48%</strong></div>
+          </div>
+        </article>
+      </section>
+
+      <section class="center-col panel">
+        <div class="avatar-wrap">
+          <div class="radar"></div>
+          <div class="avatar">JARVIS</div>
+        </div>
+        <h2>AI QUANT TRADER</h2>
+        <div class="brain-bars">
+          <div><span>THINKING SPEED</span><b>98%</b></div>
+          <div><span>DATA FLOW</span><b>94%</b></div>
+          <div><span>NEURAL SYNC</span><b>97%</b></div>
+        </div>
+        <div class="console">SYSTEM ONLINE. ANALYZING MARKET COMPLEXITY...</div>
+      </section>
+
+      <section class="right-col">
+        <article class="panel">
+          <h2>REAL TIME MARKET SCAN</h2>
+          <div class="split">
+            <ul>
+              <li>TATAMOTORS <span class="up">+4.25%</span></li>
+              <li>ADANIENT <span class="up">+3.87%</span></li>
+              <li>SBIN <span class="up">+3.21%</span></li>
+              <li>POWERGRID <span class="up">+2.98%</span></li>
+            </ul>
+            <ul>
+              <li>TECHM <span class="down">-2.45%</span></li>
+              <li>INFY <span class="down">-1.87%</span></li>
+              <li>LT <span class="down">-1.45%</span></li>
+              <li>WIPRO <span class="down">-1.23%</span></li>
+            </ul>
+          </div>
+        </article>
+        <article class="panel">
+          <h2>LIVE ORDER BOOK</h2>
+          <table>
+            <thead><tr><th>SYMBOL</th><th>SIDE</th><th>QTY</th><th>STATUS</th></tr></thead>
+            <tbody>
+              <tr><td>BANKNIFTY FUT</td><td class="up">BUY</td><td>25</td><td class="up">FILLED</td></tr>
+              <tr><td>NIFTY FUT</td><td class="up">BUY</td><td>50</td><td class="up">FILLED</td></tr>
+              <tr><td>NIFTY 24000 CE</td><td class="up">BUY</td><td>80</td><td class="up">FILLED</td></tr>
+            </tbody>
+          </table>
+        </article>
+        <article class="panel side-meters">
+          <p>AI CONFIDENCE <span>85%</span></p>
+          <p>MARKET SENTIMENT <span class="up">BULLISH</span></p>
+          <p>TRADING MODE <span>AUTO PILOT</span></p>
+          <p>SYSTEM LEARNING <span class="up">EVOLVING</span></p>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
